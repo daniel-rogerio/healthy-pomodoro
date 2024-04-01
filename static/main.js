@@ -70,3 +70,18 @@ function timer() {
 function stopTimer() {
   clearInterval(startTimer);
 }
+
+function getStretches() {
+  fetch('https://api.api-ninjas.com/v1/exercises?type=stretching', {
+    method: 'GET',
+    headers: { 'X-Api-Key': 'MY-API-KEY' },
+    contentType: 'application/json',
+  })
+  .then(response => response.json())
+  .then(data => {
+    console.log(data);
+  })
+  .catch(error => console.log(error));
+}
+
+getStretches();

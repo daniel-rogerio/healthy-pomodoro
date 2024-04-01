@@ -13,7 +13,7 @@ input {
 }
 
 body {
-  height: 100vh;
+  max-height: 100vh;
   background-color: hsl(237, 33%, 31%);
   color: hsl(0, 0%, 100%);
 }

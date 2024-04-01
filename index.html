@@ -8,6 +8,7 @@
   <link rel="icon" type="image/x-icon" href="./assets/pomodoro-goal.png">
   <link rel="stylesheet" href="./styles/global-styles.css">
   <link rel="stylesheet" href="./styles/pomodoro-styles.css">
+  <link rel="stylesheet" href="./styles/stretches-styles.css">
 </head>
 
 <body>
@@ -19,23 +20,44 @@
     </div>
     <div class="timer-area">
       <div class="work-timer">
-        <p id="work-minutes">25</p>
+        <p id="work-minutes">0</p>
         <p id="work-colon">:</p>
-        <p id="work-seconds">00</p>
+        <p id="work-seconds">10</p>
       </div>
       <div class="cycles">
         <p id="cycles">0</p>
       </div>
       <div class="break-timer">
-        <p id="break-minutes">5</p>
+        <p id="break-minutes">0</p>
         <p id="break-colon">:</p>
-        <p id="break-seconds">00</p>
+        <p id="break-seconds">5</p>
       </div>
     </div>
     <div class="buttons-area">
       <button type="button" id="start" class="btn">START</button>
       <button type="button" id="stop" class="btn">PAUSE</button>
       <button type="button" id="reset" class="btn">RESET</button>
+    </div>
+  </div>
+
+  <div class="stretches-container" id="show-stretches">
+    <div class="stretches-name">
+      <h1>Nome do exercício</h1>
+    </div>
+    <div class="stretches-description">
+      <p>Tipo</p>
+      <p>Músculo</p>
+      <p>Dificuldade</p>
+    </div>
+    <div class="stretches-instructions">
+      <p>
+        Instruções: Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum a molestias voluptatibus ut repellat unde temporibus officia minima hic dicta, quas provident veritatis delectus porro fugiat! Dicta unde commodi neque?Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor ad amet et vel beatae? Possimus suscipit sapiente odio dolorum, earum velit obcaecati,
+      </p>
+    </div>
+    <div class="stretches-buttons">
+      <button id="stretches-start" class="btn">CONTINUE</button>
+      <button id="stretches-pause" class="btn">PAUSE</button>
+      <button id="stretches-finish" class="btn">FINISH</button>
     </div>
   </div>
 

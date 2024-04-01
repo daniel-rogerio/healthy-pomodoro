@@ -1,0 +1,83 @@
+.stretches-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+
+  width: 50vw;
+  height: 300px;
+
+  margin: 100px auto;
+
+  background-color: hsl(240, 43%, 16%);
+  border: 2px solid hsl(218, 89%, 56%);
+  border-radius: 20px;
+}
+
+.stretches-name {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  border-bottom: 2px solid hsl(218, 89%, 56%);
+}
+
+.stretches-description {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 10px;
+}
+
+.stretches-instructions{
+  height: 100%;
+  width: 99%;
+
+  padding: 10px;
+  
+  text-align: justify;
+  overflow: auto;
+  border-radius: 20px;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 6px;
+}
+
+.stretches-buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+
+  width: 100%;
+  height: 60px;
+}
+
+.stretches-buttons button {
+  width: 100px;
+  height: 35px;
+  
+  margin-bottom: 10px;
+
+  border-radius: 10px;
+  border: none;
+
+  font-weight: bold;
+  color: hsl(0, 0%, 100%);
+}
+
+#stretches-start {
+  background-color: hsl(246, 73%, 42%);
+}
+
+#stretches-pause {
+  background-color: hsl(356, 69%, 46%);
+}
+
+#stretches-finish {
+  background-color: hsl(38, 96%, 41%);
+}

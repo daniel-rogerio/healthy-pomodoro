@@ -1,5 +1,5 @@
 .stretches-container {
-  display: flex;
+  display: none;
   flex-direction: column;
   justify-content: space-evenly;
 
